@@ -1,0 +1,35 @@
+_id: req_ac65c72210fe4dfc9a4c9c49efd17630
+type: Request
+parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
+modified: 1685299323073
+created: 1685298172342
+url: http://localhost:3000/api/product/create
+name: product-create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"image": "image.png",
+    	"categories":"test",
+    	"title": "Very good product",
+    	"price": 120000,
+    	"oldPrice": 140000,
+    	"description": "Best product in the world",
+    	"advantages": "Help you everywhere",
+    	"disAdvantages": "NO DISadvantages"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685298172342
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

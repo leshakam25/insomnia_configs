@@ -1,0 +1,34 @@
+_id: req_02aa6dc6bc8a409bb2fbd1081b9dc9f4
+type: Request
+parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
+modified: 1685298892181
+created: 1685298888348
+url: http://localhost:3000/api/product/64739de77cd14e148c9d96c2
+name: product-delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"image": "image2.png",
+    	"title": "Very good product",
+    	"price": 120000,
+    	"oldPrice": 140000,
+    	"description": "Best product in the world",
+    	"advantages": "Help you everywhere",
+    	"disAdvantages": "NO DISadvantages"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685242185697
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

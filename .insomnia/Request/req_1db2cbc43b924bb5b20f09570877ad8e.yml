@@ -1,0 +1,34 @@
+_id: req_1db2cbc43b924bb5b20f09570877ad8e
+type: Request
+parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
+modified: 1685298824289
+created: 1685298729586
+url: http://localhost:3000/api/product/64739de77cd14e148c9d96c2
+name: product-update
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"image": "image2.png",
+    	"title": "Very good product",
+    	"price": 120000,
+    	"oldPrice": 140000,
+    	"description": "Best product in the world",
+    	"advantages": "Help you everywhere",
+    	"disAdvantages": "NO DISadvantages"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685260847912
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,30 @@
+_id: req_e2f94597e9a742ee8001254c0aa2f2a4
+type: Request
+parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
+modified: 1685289087277
+created: 1685212976552
+url: http://localhost:3000/api/auth/login
+name: login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login":"test@test.test",
+    	"password":"testpass"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a67be35671c74dd59f4a72af7428c3f1
+authentication: {}
+metaSortKey: -1685212976552
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

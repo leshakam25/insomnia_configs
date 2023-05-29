@@ -1,0 +1,32 @@
+_id: req_ede0000ba31043eca45ee058a4e40ba2
+type: Request
+parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
+modified: 1685299546354
+created: 1685298940587
+url: http://localhost:3000/api/review/create
+name: product-addReview
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"name": "review 2",
+    	"title": "Very good product",
+    	"description": "Best product in the world",
+    	"rating":5,
+    	"productId":"6473a07d7cd14e148c9d96cf"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685251516804.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

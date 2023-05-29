@@ -1,0 +1,29 @@
+_id: req_922b8317193d4a41abe0c50c599c8ba5
+type: Request
+parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
+modified: 1685299288343
+created: 1685299103624
+url: http://localhost:3000/api/product/find
+name: product-find
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"category":"test",
+    	"limit":5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685279510127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

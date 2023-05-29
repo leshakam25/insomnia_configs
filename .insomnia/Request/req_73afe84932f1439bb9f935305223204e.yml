@@ -1,0 +1,39 @@
+_id: req_73afe84932f1439bb9f935305223204e
+type: Request
+parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
+modified: 1685289072915
+created: 1685206272379
+url: http://localhost:3000/api/auth/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login":"test@test.test",
+    	"password":"test"
+    }
+parameters:
+  - id: pair_3a4b7bdb003047c093ee64c5c2f03b49
+    name: asd
+    value: asd
+    description: ""
+    disabled: true
+headers:
+  - id: pair_a21252506077496a903f9748b239c179
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685206272379
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
