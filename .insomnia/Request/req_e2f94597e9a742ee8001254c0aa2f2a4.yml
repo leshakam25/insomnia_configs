@@ -1,7 +1,7 @@
 _id: req_e2f94597e9a742ee8001254c0aa2f2a4
 type: Request
 parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
-modified: 1685289087277
+modified: 1685401708866
 created: 1685212976552
 url: http://localhost:3000/api/auth/login
 name: login
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"login":"test@test.test",
-    	"password":"testpass"
+    	"password":"test"
     }
 parameters: []
 headers:

@@ -1,9 +1,9 @@
 _id: req_1db2cbc43b924bb5b20f09570877ad8e
 type: Request
 parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
-modified: 1685298824289
+modified: 1685402381768
 created: 1685298729586
-url: http://localhost:3000/api/product/64739de77cd14e148c9d96c2
+url: http://localhost:3000/api/product/647530c868ff0f25d8ac3a19
 name: product-update
 description: ""
 method: PATCH
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |
     {
-    	"image": "image2.png",
+    	"image": "image112.png",
     	"title": "Very good product",
     	"price": 120000,
     	"oldPrice": 140000,
@@ -23,6 +23,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_4627a3237c514a39a7f9a789a7379033
+  - id: pair_7ca759cf3a984fb6956fbc639a83ee49
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC50ZXN0IiwiaWF0IjoxNjg1NDAxNzEwfQ.aREwD8JoF3g8jLSdhvAKfgV-8C_vNgr-QtU2_js9E4o
+    description: ""
 authentication: {}
 metaSortKey: -1685260847912
 isPrivate: false

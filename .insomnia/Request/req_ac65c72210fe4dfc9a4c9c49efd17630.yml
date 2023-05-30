@@ -1,7 +1,7 @@
 _id: req_ac65c72210fe4dfc9a4c9c49efd17630
 type: Request
 parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
-modified: 1685299323073
+modified: 1685477882193
 created: 1685298172342
 url: http://localhost:3000/api/product/create
 name: product-create
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |
     {
-    	"image": "image.png",
+    	"image": "image3.png",
     	"categories":"test",
     	"title": "Very good product",
     	"price": 120000,
@@ -24,6 +24,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_68afe69a1af14c418e59204f76b214f3
+  - id: pair_8b1197ce776748578dd8555fbfb92d4e
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC50ZXN0IiwiaWF0IjoxNjg1NDc3ODY1fQ.wAbX_YyWrp7RA5mmcluLhg1X20ly9dEhGKhINaAyZZE
+    description: ""
 authentication: {}
 metaSortKey: -1685298172342
 isPrivate: false

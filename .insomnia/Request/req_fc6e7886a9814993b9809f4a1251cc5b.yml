@@ -1,10 +1,10 @@
 _id: req_fc6e7886a9814993b9809f4a1251cc5b
 type: Request
 parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
-modified: 1685284947825
+modified: 1685477989881
 created: 1685223523482
-url: http://localhost:3000/api/review/byProduct/646c9ced46ddaa1b1822c46a
-name: New Request
+url: http://localhost:3000/api/review/byProduct/647659fcfbde100c3c9bca94
+name: review-findByProduct
 description: ""
 method: GET
 body: {}

@@ -1,9 +1,9 @@
 _id: req_02aa6dc6bc8a409bb2fbd1081b9dc9f4
 type: Request
 parentId: wrk_cb0dc674a4f54e39bd8af4e0626079a7
-modified: 1685298892181
+modified: 1685402530850
 created: 1685298888348
-url: http://localhost:3000/api/product/64739de77cd14e148c9d96c2
+url: http://localhost:3000/api/product/647530c868ff0f25d8ac3a19
 name: product-delete
 description: ""
 method: DELETE
@@ -23,6 +23,12 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
+    id: pair_e6cc55e36c37408d92206ab4e460f282
+  - id: pair_bfccb95734ce4784b738efb924ff20e0
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAdGVzdC50ZXN0IiwiaWF0IjoxNjg1NDAxNzEwfQ.aREwD8JoF3g8jLSdhvAKfgV-8C_vNgr-QtU2_js9E4o
+    description: ""
 authentication: {}
 metaSortKey: -1685242185697
 isPrivate: false
